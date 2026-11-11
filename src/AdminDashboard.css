@@ -1,0 +1,135 @@
+.admin-dashboard {
+  min-height: 100vh;
+  padding: 40px 6%;
+  background: #f4f6fb;
+  color: #1f2937;
+  font-family: Arial, sans-serif;
+}
+
+.admin-dashboard h1 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  color: #1e293b;
+}
+
+.admin-dashboard h2 {
+  font-size: 23px;
+  margin: 30px 0 15px;
+  color: #334155;
+}
+
+.admin-dashboard h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.admin-dashboard button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #5265e9;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 5px;
+  transition: 0.2s;
+}
+
+.admin-dashboard button:hover {
+  background: #394bc7;
+}
+
+.admin-dashboard .application-item {
+  background: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+}
+
+.admin-dashboard .job-form {
+  max-width: 650px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  margin: 20px 0;
+}
+.job-form input,
+.job-form select,
+.job-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.job-form input:focus,
+.job-form select:focus,
+.job-form textarea:focus {
+  border-color: #5265e9;
+  box-shadow: 0 0 0 3px rgba(82, 101, 233, 0.12);
+}
+
+.job-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.job-form button[type="submit"] {
+  background: #16a34a;
+}
+
+.job-form button[type="submit"]:hover {
+  background: #15803d;
+}
+@media (max-width: 768px) {
+  .admin-dashboard {
+    padding: 25px 15px;
+  }
+
+  .admin-dashboard h1 {
+    font-size: 25px;
+  }
+
+  .admin-dashboard h2 {
+    font-size: 20px;
+  }
+
+  .admin-dashboard .job-form {
+    max-width: 100%;
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  .admin-dashboard .application-item {
+    padding: 15px;
+  }
+
+  .admin-dashboard button {
+    padding: 10px 14px;
+    font-size: 13px;
+  }
+}
+.admin-dashboard .application-item {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.admin-dashboard .application-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.admin-dashboard .application-item p {
+  color: #64748b;
+  line-height: 1.6;
+}
+
+.admin-dashboard .application-item h3 {
+  color: #1e293b;
+}
